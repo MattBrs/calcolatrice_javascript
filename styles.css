@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+
+fieldset{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    margin-top: 5%;
+    border: 0px;
+    border-radius: 15px;
+    background-color: rgba(51, 235, 195, 0.3);
+    color: black;
+}
+
+#listaOperazioni, #n1, #n2{
+    width: 50%;
+    margin: 10px;
+}
+
+#risultato, #calcola{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#calcola:hover{
+    cursor: pointer;
+}
+

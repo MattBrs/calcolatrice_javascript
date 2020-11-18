@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="scripts.js"></script>
+  </head>
+  <body>
+    <fieldset>
+      <form action="">
+        <h1>Calcolatrice</h1>
+        <label for="n1">Operando 1:</label> <input type="number" id="n1" />
+        <br />
+        <label for="n2">Operando 2:</label> <input type="number" id="n2" />
+        <br />
+        <label for="listaOperazioni">Operazione:</label>
+
+        <select name="listaOperazioni" id="listaOperazioni">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+
+        <br />
+        <input
+          type="button"
+          value="calcola"
+          onclick="calculate();"
+          id="calcola"
+        />
+        <br />
+        <input type="button" value="???" disabled id="risultato" />
+      </form>
+    </fieldset>
+  </body>
+</html>
